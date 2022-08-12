@@ -1,0 +1,339 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.BackendApi\\Task1.BackendApi.csproj": {}
+  },
+  "projects": {
+    "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Application\\Task1.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Application\\Task1.Application.csproj",
+        "projectName": "Task1.Application",
+        "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Application\\Task1.Application.csproj",
+        "packagesPath": "C:\\Users\\VU Huu Quoc Bao\\.nuget\\packages\\",
+        "outputPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VU Huu Quoc Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj": {
+                "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj"
+              },
+              "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Utilities\\Task1.Utilities.csproj": {
+                "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Utilities\\Task1.Utilities.csproj"
+              },
+              "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.ViewModel\\Task1.ViewModel.csproj": {
+                "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.ViewModel\\Task1.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.BackendApi\\Task1.BackendApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.BackendApi\\Task1.BackendApi.csproj",
+        "projectName": "Task1.BackendApi",
+        "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.BackendApi\\Task1.BackendApi.csproj",
+        "packagesPath": "C:\\Users\\VU Huu Quoc Bao\\.nuget\\packages\\",
+        "outputPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.BackendApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VU Huu Quoc Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Application\\Task1.Application.csproj": {
+                "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Application\\Task1.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj",
+        "projectName": "Task1.Data",
+        "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj",
+        "packagesPath": "C:\\Users\\VU Huu Quoc Bao\\.nuget\\packages\\",
+        "outputPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VU Huu Quoc Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Utilities\\Task1.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Utilities\\Task1.Utilities.csproj",
+        "projectName": "Task1.Utilities",
+        "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Utilities\\Task1.Utilities.csproj",
+        "packagesPath": "C:\\Users\\VU Huu Quoc Bao\\.nuget\\packages\\",
+        "outputPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VU Huu Quoc Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.ViewModel\\Task1.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.ViewModel\\Task1.ViewModel.csproj",
+        "projectName": "Task1.ViewModel",
+        "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.ViewModel\\Task1.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\VU Huu Quoc Bao\\.nuget\\packages\\",
+        "outputPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VU Huu Quoc Bao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj": {
+                "projectPath": "F:\\OneDrive\\Desktop\\Task\\task1\\Task1.Data\\Task1.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
